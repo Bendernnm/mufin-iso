@@ -12,6 +12,7 @@
     "script:parse": "cd scripts && node parse.js",
     "eslint": "eslint .",
     "eslint-fix": "eslint . --fix",
+    "sample": "node _sample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
