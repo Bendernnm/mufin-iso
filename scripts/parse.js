@@ -4,7 +4,6 @@ const inputData = require('./datahub-iso4217.json');
 const outputFile = './iso4217.json';
 
 (() => {
-  console.log('Start here');
   const codes = new Set();
 
   const outputData = inputData.reduce((acc, item) => {
@@ -15,7 +14,7 @@ const outputFile = './iso4217.json';
     codes.add(item.AlphabeticCode);
 
     acc.push({
-      name: item.Currency,
+      name: item.Currency.toLowerCase(),
       code: item.AlphabeticCode,
       number: item.NumericCode,
       minorUnits: item.MinorUnit,
