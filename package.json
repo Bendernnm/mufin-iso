@@ -10,6 +10,8 @@
   "scripts": {
     "start": "node index.js",
     "script:parse": "cd scripts && node parse.js",
+    "eslint": "eslint .",
+    "eslint-fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,

@@ -1,31 +1,28 @@
 const fs = require('fs');
+const inputData = require('./datahub-iso4217.json');
 
-const inputFile = './datahub-iso4217.json';
 const outputFile = './iso4217.json';
 
-const inputData = require(inputFile);
-
 (() => {
-    console.log('Start here');
-    const codes = new Set();
+  console.log('Start here');
+  const codes = new Set();
 
-    const outputData = inputData.reduce((acc, item) => {
-        if (codes.has(item.AlphabeticCode)) {
-            return acc;
-        }
+  const outputData = inputData.reduce((acc, item) => {
+    if (codes.has(item.AlphabeticCode)) {
+      return acc;
+    }
 
-        codes.add(item.AlphabeticCode);
+    codes.add(item.AlphabeticCode);
 
-        acc.push({
-            name: item.Currency,
-            code: item.AlphabeticCode,
-            number: item.NumericCode,
-            minorUnits: item.MinorUnit,
-        });
+    acc.push({
+      name: item.Currency,
+      code: item.AlphabeticCode,
+      number: item.NumericCode,
+      minorUnits: item.MinorUnit,
+    });
 
-        return acc;
-    }, []);
+    return acc;
+  }, []);
 
-    fs.writeFileSync(outputFile, JSON.stringify(outputData));
+  fs.writeFileSync(outputFile, JSON.stringify(outputData));
 })();
-
