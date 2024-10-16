@@ -17,7 +17,7 @@ const inputData = require(inputFile);
         codes.add(item.AlphabeticCode);
 
         acc.push({
-            currency: item.Currency,
+            name: item.Currency,
             code: item.AlphabeticCode,
             number: item.NumericCode,
             minorUnits: item.MinorUnit,
