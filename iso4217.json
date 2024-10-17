@@ -6,22 +6,10 @@
     "minorUnits": 2
   },
   {
-    "name": "afghani",
-    "code": "AFA",
-    "number": 4,
-    "minorUnits": null
-  },
-  {
     "name": "lek",
     "code": "ALL",
     "number": 8,
     "minorUnits": 2
-  },
-  {
-    "name": "old lek",
-    "code": "ALK",
-    "number": 8,
-    "minorUnits": null
   },
   {
     "name": "algerian dinar",
@@ -42,46 +30,10 @@
     "minorUnits": 2
   },
   {
-    "name": "andorran peseta",
-    "code": "ADP",
-    "number": 20,
-    "minorUnits": null
-  },
-  {
-    "name": "spanish peseta",
-    "code": "ESP",
-    "number": 724,
-    "minorUnits": null
-  },
-  {
-    "name": "french franc",
-    "code": "FRF",
-    "number": 250,
-    "minorUnits": null
-  },
-  {
     "name": "kwanza",
     "code": "AOA",
     "number": 973,
     "minorUnits": 2
-  },
-  {
-    "name": "kwanza",
-    "code": "AOK",
-    "number": 24,
-    "minorUnits": null
-  },
-  {
-    "name": "new kwanza",
-    "code": "AON",
-    "number": 24,
-    "minorUnits": null
-  },
-  {
-    "name": "kwanza reajustado",
-    "code": "AOR",
-    "number": 982,
-    "minorUnits": null
   },
   {
     "name": "east caribbean dollar",
@@ -90,46 +42,16 @@
     "minorUnits": 2
   },
   {
-    "name": "no universal currency",
-    "code": null,
-    "number": null,
-    "minorUnits": null
-  },
-  {
     "name": "argentine peso",
     "code": "ARS",
     "number": 32,
     "minorUnits": 2
   },
   {
-    "name": "austral",
-    "code": "ARA",
-    "number": 32,
-    "minorUnits": null
-  },
-  {
-    "name": "peso argentino",
-    "code": "ARP",
-    "number": 32,
-    "minorUnits": null
-  },
-  {
-    "name": "peso",
-    "code": "ARY",
-    "number": 32,
-    "minorUnits": null
-  },
-  {
     "name": "armenian dram",
     "code": "AMD",
     "number": 51,
     "minorUnits": 2
-  },
-  {
-    "name": "russian ruble",
-    "code": "RUR",
-    "number": 810,
-    "minorUnits": null
   },
   {
     "name": "aruban florin",
@@ -144,28 +66,10 @@
     "minorUnits": 2
   },
   {
-    "name": "schilling",
-    "code": "ATS",
-    "number": 40,
-    "minorUnits": null
-  },
-  {
     "name": "azerbaijan manat",
     "code": "AZN",
     "number": 944,
     "minorUnits": 2
-  },
-  {
-    "name": "azerbaijan manat",
-    "code": "AYM",
-    "number": 945,
-    "minorUnits": null
-  },
-  {
-    "name": "azerbaijanian manat",
-    "code": "AZM",
-    "number": 31,
-    "minorUnits": null
   },
   {
     "name": "bahamian dollar",
@@ -198,36 +102,6 @@
     "minorUnits": 2
   },
   {
-    "name": "belarusian ruble",
-    "code": "BYB",
-    "number": 112,
-    "minorUnits": null
-  },
-  {
-    "name": "belarusian ruble",
-    "code": "BYR",
-    "number": 974,
-    "minorUnits": null
-  },
-  {
-    "name": "convertible franc",
-    "code": "BEC",
-    "number": 993,
-    "minorUnits": null
-  },
-  {
-    "name": "belgian franc",
-    "code": "BEF",
-    "number": 56,
-    "minorUnits": null
-  },
-  {
-    "name": "financial franc",
-    "code": "BEL",
-    "number": 992,
-    "minorUnits": null
-  },
-  {
     "name": "belize dollar",
     "code": "BZD",
     "number": 84,
@@ -258,12 +132,6 @@
     "minorUnits": 2
   },
   {
-    "name": "peso boliviano",
-    "code": "BOP",
-    "number": 68,
-    "minorUnits": null
-  },
-  {
     "name": "boliviano",
     "code": "BOB",
     "number": 68,
@@ -280,12 +148,6 @@
     "code": "BAM",
     "number": 977,
     "minorUnits": 2
-  },
-  {
-    "name": "dinar",
-    "code": "BAD",
-    "number": 70,
-    "minorUnits": null
   },
   {
     "name": "pula",
@@ -306,36 +168,6 @@
     "minorUnits": 2
   },
   {
-    "name": "cruzeiro",
-    "code": "BRB",
-    "number": 76,
-    "minorUnits": null
-  },
-  {
-    "name": "cruzado",
-    "code": "BRC",
-    "number": 76,
-    "minorUnits": null
-  },
-  {
-    "name": "cruzeiro",
-    "code": "BRE",
-    "number": 76,
-    "minorUnits": null
-  },
-  {
-    "name": "new cruzado",
-    "code": "BRN",
-    "number": 76,
-    "minorUnits": null
-  },
-  {
-    "name": "cruzeiro real",
-    "code": "BRR",
-    "number": 987,
-    "minorUnits": null
-  },
-  {
     "name": "brunei dollar",
     "code": "BND",
     "number": 96,
@@ -346,30 +178,6 @@
     "code": "BGN",
     "number": 975,
     "minorUnits": 2
-  },
-  {
-    "name": "lev a/52",
-    "code": "BGJ",
-    "number": 100,
-    "minorUnits": null
-  },
-  {
-    "name": "lev a/62",
-    "code": "BGK",
-    "number": 100,
-    "minorUnits": null
-  },
-  {
-    "name": "lev",
-    "code": "BGL",
-    "number": 100,
-    "minorUnits": null
-  },
-  {
-    "name": "kyat",
-    "code": "BUK",
-    "number": 104,
-    "minorUnits": null
   },
   {
     "name": "burundi franc",
@@ -468,12 +276,6 @@
     "minorUnits": 2
   },
   {
-    "name": "croatian dinar",
-    "code": "HRD",
-    "number": 191,
-    "minorUnits": null
-  },
-  {
     "name": "cuban peso",
     "code": "CUP",
     "number": 192,
@@ -492,28 +294,10 @@
     "minorUnits": 2
   },
   {
-    "name": "cyprus pound",
-    "code": "CYP",
-    "number": 196,
-    "minorUnits": null
-  },
-  {
     "name": "czech koruna",
     "code": "CZK",
     "number": 203,
     "minorUnits": 2
-  },
-  {
-    "name": "krona a/53",
-    "code": "CSJ",
-    "number": 203,
-    "minorUnits": null
-  },
-  {
-    "name": "koruna",
-    "code": "CSK",
-    "number": 200,
-    "minorUnits": null
   },
   {
     "name": "danish krone",
@@ -534,18 +318,6 @@
     "minorUnits": 2
   },
   {
-    "name": "sucre",
-    "code": "ECS",
-    "number": 218,
-    "minorUnits": null
-  },
-  {
-    "name": "unidad de valor constante (uvc)",
-    "code": "ECV",
-    "number": 983,
-    "minorUnits": null
-  },
-  {
     "name": "egyptian pound",
     "code": "EGP",
     "number": 818,
@@ -558,22 +330,10 @@
     "minorUnits": 2
   },
   {
-    "name": "ekwele",
-    "code": "GQE",
-    "number": 226,
-    "minorUnits": null
-  },
-  {
     "name": "nakfa",
     "code": "ERN",
     "number": 232,
     "minorUnits": 2
-  },
-  {
-    "name": "kroon",
-    "code": "EEK",
-    "number": 233,
-    "minorUnits": null
   },
   {
     "name": "lilangeni",
@@ -588,12 +348,6 @@
     "minorUnits": 2
   },
   {
-    "name": "european currency unit (e.c.u)",
-    "code": "XEU",
-    "number": 954,
-    "minorUnits": null
-  },
-  {
     "name": "falkland islands pound",
     "code": "FKP",
     "number": 238,
@@ -604,12 +358,6 @@
     "code": "FJD",
     "number": 242,
     "minorUnits": 2
-  },
-  {
-    "name": "markka",
-    "code": "FIM",
-    "number": 246,
-    "minorUnits": null
   },
   {
     "name": "cfp franc",
@@ -630,52 +378,16 @@
     "minorUnits": 2
   },
   {
-    "name": "georgian coupon",
-    "code": "GEK",
-    "number": 268,
-    "minorUnits": null
-  },
-  {
-    "name": "mark der ddr",
-    "code": "DDM",
-    "number": 278,
-    "minorUnits": null
-  },
-  {
-    "name": "deutsche mark",
-    "code": "DEM",
-    "number": 276,
-    "minorUnits": null
-  },
-  {
     "name": "ghana cedi",
     "code": "GHS",
     "number": 936,
     "minorUnits": 2
   },
   {
-    "name": "cedi",
-    "code": "GHC",
-    "number": 288,
-    "minorUnits": null
-  },
-  {
-    "name": "ghana cedi",
-    "code": "GHP",
-    "number": 939,
-    "minorUnits": null
-  },
-  {
     "name": "gibraltar pound",
     "code": "GIP",
     "number": 292,
     "minorUnits": 2
-  },
-  {
-    "name": "drachma",
-    "code": "GRD",
-    "number": 300,
-    "minorUnits": null
   },
   {
     "name": "quetzal",
@@ -696,30 +408,6 @@
     "minorUnits": 0
   },
   {
-    "name": "syli",
-    "code": "GNE",
-    "number": 324,
-    "minorUnits": null
-  },
-  {
-    "name": "syli",
-    "code": "GNS",
-    "number": 324,
-    "minorUnits": null
-  },
-  {
-    "name": "guinea escudo",
-    "code": "GWE",
-    "number": 624,
-    "minorUnits": null
-  },
-  {
-    "name": "guinea-bissau peso",
-    "code": "GWP",
-    "number": 624,
-    "minorUnits": null
-  },
-  {
     "name": "guyana dollar",
     "code": "GYD",
     "number": 328,
@@ -730,12 +418,6 @@
     "code": "HTG",
     "number": 332,
     "minorUnits": 2
-  },
-  {
-    "name": "italian lira",
-    "code": "ITL",
-    "number": 380,
-    "minorUnits": null
   },
   {
     "name": "lempira",
@@ -762,12 +444,6 @@
     "minorUnits": 0
   },
   {
-    "name": "old krona",
-    "code": "ISJ",
-    "number": 352,
-    "minorUnits": null
-  },
-  {
     "name": "rupiah",
     "code": "IDR",
     "number": 360,
@@ -792,28 +468,10 @@
     "minorUnits": 3
   },
   {
-    "name": "irish pound",
-    "code": "IEP",
-    "number": 372,
-    "minorUnits": null
-  },
-  {
     "name": "new israeli sheqel",
     "code": "ILS",
     "number": 376,
     "minorUnits": 2
-  },
-  {
-    "name": "pound",
-    "code": "ILP",
-    "number": 376,
-    "minorUnits": null
-  },
-  {
-    "name": "old shekel",
-    "code": "ILR",
-    "number": 376,
-    "minorUnits": null
   },
   {
     "name": "jamaican dollar",
@@ -870,28 +528,10 @@
     "minorUnits": 2
   },
   {
-    "name": "pathet lao kip",
-    "code": "LAJ",
-    "number": 418,
-    "minorUnits": null
-  },
-  {
     "name": "lao kip",
     "code": "LAK",
     "number": 418,
     "minorUnits": 2
-  },
-  {
-    "name": "latvian lats",
-    "code": "LVL",
-    "number": 428,
-    "minorUnits": null
-  },
-  {
-    "name": "latvian ruble",
-    "code": "LVR",
-    "number": 428,
-    "minorUnits": null
   },
   {
     "name": "lebanese pound",
@@ -912,18 +552,6 @@
     "minorUnits": 2
   },
   {
-    "name": "loti",
-    "code": "LSM",
-    "number": 426,
-    "minorUnits": null
-  },
-  {
-    "name": "financial rand",
-    "code": "ZAL",
-    "number": 991,
-    "minorUnits": null
-  },
-  {
     "name": "liberian dollar",
     "code": "LRD",
     "number": 430,
@@ -942,36 +570,6 @@
     "minorUnits": 2
   },
   {
-    "name": "lithuanian litas",
-    "code": "LTL",
-    "number": 440,
-    "minorUnits": null
-  },
-  {
-    "name": "talonas",
-    "code": "LTT",
-    "number": 440,
-    "minorUnits": null
-  },
-  {
-    "name": "luxembourg convertible franc",
-    "code": "LUC",
-    "number": 989,
-    "minorUnits": null
-  },
-  {
-    "name": "luxembourg franc",
-    "code": "LUF",
-    "number": 442,
-    "minorUnits": null
-  },
-  {
-    "name": "luxembourg financial franc",
-    "code": "LUL",
-    "number": 988,
-    "minorUnits": null
-  },
-  {
     "name": "pataca",
     "code": "MOP",
     "number": 446,
@@ -982,12 +580,6 @@
     "code": "MGA",
     "number": 969,
     "minorUnits": 2
-  },
-  {
-    "name": "malagasy franc",
-    "code": "MGF",
-    "number": 450,
-    "minorUnits": null
   },
   {
     "name": "malawi kwacha",
@@ -1008,40 +600,10 @@
     "minorUnits": 2
   },
   {
-    "name": "maldive rupee",
-    "code": "MVQ",
-    "number": 462,
-    "minorUnits": null
-  },
-  {
-    "name": "mali franc",
-    "code": "MLF",
-    "number": 466,
-    "minorUnits": null
-  },
-  {
-    "name": "maltese lira",
-    "code": "MTL",
-    "number": 470,
-    "minorUnits": null
-  },
-  {
-    "name": "maltese pound",
-    "code": "MTP",
-    "number": 470,
-    "minorUnits": null
-  },
-  {
     "name": "ouguiya",
     "code": "MRU",
     "number": 929,
     "minorUnits": 2
-  },
-  {
-    "name": "ouguiya",
-    "code": "MRO",
-    "number": 478,
-    "minorUnits": null
   },
   {
     "name": "mauritius rupee",
@@ -1068,12 +630,6 @@
     "minorUnits": 2
   },
   {
-    "name": "mexican peso",
-    "code": "MXP",
-    "number": 484,
-    "minorUnits": null
-  },
-  {
     "name": "moldovan leu",
     "code": "MDL",
     "number": 498,
@@ -1098,18 +654,6 @@
     "minorUnits": 2
   },
   {
-    "name": "mozambique escudo",
-    "code": "MZE",
-    "number": 508,
-    "minorUnits": null
-  },
-  {
-    "name": "mozambique metical",
-    "code": "MZM",
-    "number": 508,
-    "minorUnits": null
-  },
-  {
     "name": "kyat",
     "code": "MMK",
     "number": 104,
@@ -1128,22 +672,10 @@
     "minorUnits": 2
   },
   {
-    "name": "netherlands guilder",
-    "code": "NLG",
-    "number": 528,
-    "minorUnits": null
-  },
-  {
     "name": "cordoba oro",
     "code": "NIO",
     "number": 558,
     "minorUnits": 2
-  },
-  {
-    "name": "cordoba",
-    "code": "NIC",
-    "number": 558,
-    "minorUnits": null
   },
   {
     "name": "naira",
@@ -1194,24 +726,6 @@
     "minorUnits": 2
   },
   {
-    "name": "sol",
-    "code": "PEH",
-    "number": 604,
-    "minorUnits": null
-  },
-  {
-    "name": "inti",
-    "code": "PEI",
-    "number": 604,
-    "minorUnits": null
-  },
-  {
-    "name": "sol",
-    "code": "PES",
-    "number": 604,
-    "minorUnits": null
-  },
-  {
     "name": "philippine peso",
     "code": "PHP",
     "number": 608,
@@ -1224,18 +738,6 @@
     "minorUnits": 2
   },
   {
-    "name": "zloty",
-    "code": "PLZ",
-    "number": 616,
-    "minorUnits": null
-  },
-  {
-    "name": "portuguese escudo",
-    "code": "PTE",
-    "number": 620,
-    "minorUnits": null
-  },
-  {
     "name": "qatari rial",
     "code": "QAR",
     "number": 634,
@@ -1246,18 +748,6 @@
     "code": "RON",
     "number": 946,
     "minorUnits": 2
-  },
-  {
-    "name": "leu a/52",
-    "code": "ROK",
-    "number": 642,
-    "minorUnits": null
-  },
-  {
-    "name": "old leu",
-    "code": "ROL",
-    "number": 642,
-    "minorUnits": null
   },
   {
     "name": "russian ruble",
@@ -1290,12 +780,6 @@
     "minorUnits": 2
   },
   {
-    "name": "dobra",
-    "code": "STD",
-    "number": 678,
-    "minorUnits": null
-  },
-  {
     "name": "saudi riyal",
     "code": "SAR",
     "number": 682,
@@ -1306,12 +790,6 @@
     "code": "RSD",
     "number": 941,
     "minorUnits": 2
-  },
-  {
-    "name": "serbian dinar",
-    "code": "CSD",
-    "number": 891,
-    "minorUnits": null
   },
   {
     "name": "seychelles rupee",
@@ -1338,18 +816,6 @@
     "minorUnits": "-"
   },
   {
-    "name": "slovak koruna",
-    "code": "SKK",
-    "number": 703,
-    "minorUnits": null
-  },
-  {
-    "name": "tolar",
-    "code": "SIT",
-    "number": 705,
-    "minorUnits": null
-  },
-  {
     "name": "solomon islands dollar",
     "code": "SBD",
     "number": 90,
@@ -1368,58 +834,22 @@
     "minorUnits": 2
   },
   {
-    "name": "sudanese pound",
-    "code": "SDG",
-    "number": 938,
-    "minorUnits": null
-  },
-  {
-    "name": "rhodesian dollar",
-    "code": "RHD",
-    "number": 716,
-    "minorUnits": null
-  },
-  {
-    "name": "spanish peseta",
-    "code": "ESA",
-    "number": 996,
-    "minorUnits": null
-  },
-  {
-    "name": "\"a\" account (convertible peseta account)",
-    "code": "ESB",
-    "number": 995,
-    "minorUnits": null
-  },
-  {
     "name": "sri lanka rupee",
     "code": "LKR",
     "number": 144,
     "minorUnits": 2
   },
   {
-    "name": "sudanese dinar",
-    "code": "SDD",
-    "number": 736,
-    "minorUnits": null
-  },
-  {
     "name": "sudanese pound",
-    "code": "SDP",
-    "number": 736,
-    "minorUnits": null
+    "code": "SDG",
+    "number": 938,
+    "minorUnits": 2
   },
   {
     "name": "surinam dollar",
     "code": "SRD",
     "number": 968,
     "minorUnits": 2
-  },
-  {
-    "name": "surinam guilder",
-    "code": "SRG",
-    "number": 740,
-    "minorUnits": null
   },
   {
     "name": "swedish krona",
@@ -1440,12 +870,6 @@
     "minorUnits": 2
   },
   {
-    "name": "wir franc (for electronic)",
-    "code": "CHC",
-    "number": 948,
-    "minorUnits": null
-  },
-  {
     "name": "syrian pound",
     "code": "SYP",
     "number": 760,
@@ -1464,12 +888,6 @@
     "minorUnits": 2
   },
   {
-    "name": "tajik ruble",
-    "code": "TJR",
-    "number": 762,
-    "minorUnits": null
-  },
-  {
     "name": "tanzanian shilling",
     "code": "TZS",
     "number": 834,
@@ -1480,12 +898,6 @@
     "code": "THB",
     "number": 764,
     "minorUnits": 2
-  },
-  {
-    "name": "timor escudo",
-    "code": "TPE",
-    "number": 626,
-    "minorUnits": null
   },
   {
     "name": "pa'anga",
@@ -1512,22 +924,10 @@
     "minorUnits": 2
   },
   {
-    "name": "old turkish lira",
-    "code": "TRL",
-    "number": 792,
-    "minorUnits": null
-  },
-  {
     "name": "turkmenistan new manat",
     "code": "TMT",
     "number": 934,
     "minorUnits": 2
-  },
-  {
-    "name": "turkmenistan manat",
-    "code": "TMM",
-    "number": 795,
-    "minorUnits": null
   },
   {
     "name": "uganda shilling",
@@ -1536,46 +936,16 @@
     "minorUnits": 0
   },
   {
-    "name": "uganda shilling",
-    "code": "UGS",
-    "number": 800,
-    "minorUnits": null
-  },
-  {
-    "name": "old shilling",
-    "code": "UGW",
-    "number": 800,
-    "minorUnits": null
-  },
-  {
     "name": "hryvnia",
     "code": "UAH",
     "number": 980,
     "minorUnits": 2
   },
   {
-    "name": "karbovanet",
-    "code": "UAK",
-    "number": 804,
-    "minorUnits": null
-  },
-  {
-    "name": "rouble",
-    "code": "SUR",
-    "number": 810,
-    "minorUnits": null
-  },
-  {
     "name": "uae dirham",
     "code": "AED",
     "number": 784,
     "minorUnits": 2
-  },
-  {
-    "name": "us dollar (same day)",
-    "code": "USS",
-    "number": 998,
-    "minorUnits": null
   },
   {
     "name": "us dollar (next day)",
@@ -1602,18 +972,6 @@
     "minorUnits": 4
   },
   {
-    "name": "old uruguay peso",
-    "code": "UYN",
-    "number": 858,
-    "minorUnits": null
-  },
-  {
-    "name": "uruguayan peso",
-    "code": "UYP",
-    "number": 858,
-    "minorUnits": null
-  },
-  {
     "name": "uzbekistan sum",
     "code": "UZS",
     "number": 860,
@@ -1624,18 +982,6 @@
     "code": "VUV",
     "number": 548,
     "minorUnits": 0
-  },
-  {
-    "name": "bolivar",
-    "code": "VEB",
-    "number": 862,
-    "minorUnits": null
-  },
-  {
-    "name": "bolivar fuerte",
-    "code": "VEF",
-    "number": 937,
-    "minorUnits": null
   },
   {
     "name": "bolívar soberano",
@@ -1650,52 +996,10 @@
     "minorUnits": 0
   },
   {
-    "name": "old dong",
-    "code": "VNC",
-    "number": 704,
-    "minorUnits": null
-  },
-  {
     "name": "yemeni rial",
     "code": "YER",
     "number": 886,
     "minorUnits": 2
-  },
-  {
-    "name": "yemeni dinar",
-    "code": "YDD",
-    "number": 720,
-    "minorUnits": null
-  },
-  {
-    "name": "new yugoslavian dinar",
-    "code": "YUD",
-    "number": 890,
-    "minorUnits": null
-  },
-  {
-    "name": "new dinar",
-    "code": "YUM",
-    "number": 891,
-    "minorUnits": null
-  },
-  {
-    "name": "yugoslavian dinar",
-    "code": "YUN",
-    "number": 890,
-    "minorUnits": null
-  },
-  {
-    "name": "new zaire",
-    "code": "ZRN",
-    "number": 180,
-    "minorUnits": null
-  },
-  {
-    "name": "zaire",
-    "code": "ZRZ",
-    "number": 180,
-    "minorUnits": null
   },
   {
     "name": "zambian kwacha",
@@ -1704,40 +1008,10 @@
     "minorUnits": 2
   },
   {
-    "name": "zambian kwacha",
-    "code": "ZMK",
-    "number": 894,
-    "minorUnits": null
-  },
-  {
     "name": "zimbabwe dollar",
     "code": "ZWL",
     "number": 932,
     "minorUnits": 2
-  },
-  {
-    "name": "rhodesian dollar",
-    "code": "ZWC",
-    "number": 716,
-    "minorUnits": null
-  },
-  {
-    "name": "zimbabwe dollar (old)",
-    "code": "ZWD",
-    "number": 716,
-    "minorUnits": null
-  },
-  {
-    "name": "zimbabwe dollar (new)",
-    "code": "ZWN",
-    "number": 942,
-    "minorUnits": null
-  },
-  {
-    "name": "zimbabwe dollar",
-    "code": "ZWR",
-    "number": 935,
-    "minorUnits": null
   },
   {
     "name": "bond markets unit european composite unit (eurco)",
@@ -1746,22 +1020,10 @@
     "minorUnits": "-"
   },
   {
-    "name": "gold-franc",
-    "code": "XFO",
-    "number": null,
-    "minorUnits": null
-  },
-  {
     "name": "bond markets unit european monetary unit (e.m.u.-6)",
     "code": "XBB",
     "number": 956,
     "minorUnits": "-"
-  },
-  {
-    "name": "rinet funds code",
-    "code": "XRE",
-    "number": null,
-    "minorUnits": null
   },
   {
     "name": "bond markets unit european unit of account 9 (e.u.a.-9)",
@@ -1774,12 +1036,6 @@
     "code": "XBD",
     "number": 958,
     "minorUnits": "-"
-  },
-  {
-    "name": "uic-franc",
-    "code": "XFU",
-    "number": null,
-    "minorUnits": null
   },
   {
     "name": "codes specifically reserved for testing purposes",

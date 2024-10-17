@@ -7,6 +7,10 @@ const outputFile = './iso4217.json';
   const codes = new Set();
 
   const outputData = inputData.reduce((acc, item) => {
+    if (!item.NumericCode || !!item.WithdrawalDate) {
+      return acc;
+    }
+
     if (codes.has(item.AlphabeticCode)) {
       return acc;
     }
