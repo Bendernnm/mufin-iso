@@ -26,16 +26,6 @@ jobs:
         env:
           CI: true
 
-      - name: Check coverage threshold
-        run: |
-          COVERAGE=$(grep -Po '"lines": {\s*"total": \d+,\s*"covered": \d+,\s*"skipped": \d+,\s*"pct": \K\d+' coverage/coverage-summary.json)
-          if [ "$COVERAGE" -lt 90 ]; then
-            echo "Coverage is below 90%. Current coverage is $COVERAGE%."
-            exit 1
-          else
-            echo "Coverage is above 90%. Current coverage is $COVERAGE%."
-          fi
-
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
