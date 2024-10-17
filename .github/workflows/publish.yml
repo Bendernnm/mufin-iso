@@ -20,6 +20,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
 
       - run: npm install
+        with:
+          node-version: '22.10.0'
 
       - run: npm publish
         env:
