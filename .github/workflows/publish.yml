@@ -12,17 +12,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: '22.10.0'
           registry-url: https://npm.pkg.github.com/
 
       - run: npm install
-        with:
-          node-version: '22.10.0'
 
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}  # Uses the secret you created earlier
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
