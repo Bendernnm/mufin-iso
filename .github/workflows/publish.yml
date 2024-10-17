@@ -31,7 +31,7 @@ jobs:
       - name: Get latest published version
         id: latest_version
         run: |
-          LATEST_VERSION=$(npm view @your-username/your-package-name version --registry=https://npm.pkg.github.com/)
+          LATEST_VERSION=$(npm view @bendernnm/mufin-iso4217 version --registry=https://npm.pkg.github.com/)
           echo "Latest published version: $LATEST_VERSION"
           echo "::set-output name=latest_version::$LATEST_VERSION"
 
