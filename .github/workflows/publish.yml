@@ -21,6 +21,26 @@ jobs:
 
       - run: npm install
 
+      - name: Get package version
+        id: package_version
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          echo "Package version: $PACKAGE_VERSION"
+          echo "::set-output name=version::$PACKAGE_VERSION"
+
+      - name: Get latest published version
+        id: latest_version
+        run: |
+          LATEST_VERSION=$(npm view @your-username/your-package-name version --registry=https://npm.pkg.github.com/)
+          echo "Latest published version: $LATEST_VERSION"
+          echo "::set-output name=latest_version::$LATEST_VERSION"
+
+      - name: Check if version has changed
+        if: steps.package_version.outputs.version == steps.latest_version.outputs.latest_version
+        run: |
+          echo "Version has not changed, exiting."
+          exit 0
+
       - name: Run tests with coverage
         run: npm test -- --coverage
         env:
