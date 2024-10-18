@@ -52,7 +52,7 @@ jobs:
             echo "version_changed=true" >> $GITHUB_ENV
           fi
 
-      - run: npm publish
+      - run: npm publish --access public
         if: env.version_changed == 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
