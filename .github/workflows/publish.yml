@@ -21,6 +21,11 @@ jobs:
 
       - run: npm install
 
+      - name: Run tests with coverage
+        run: npm test -- --coverage
+        env:
+          CI: true
+
       - name: Get package version
         id: package_version
         run: |
@@ -38,16 +43,16 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Check if version has changed
-        if: steps.package_version.outputs.version == steps.latest_version.outputs.latest_version
+        id: check_version
         run: |
-          echo "Version has not changed, exiting."
-          exit 0
-
-      - name: Run tests with coverage
-        run: npm test -- --coverage
-        env:
-          CI: true
+          if [ "${{ steps.package_version.outputs.version }}" == "${{ steps.latest_version.outputs.latest_version }}" ]; then
+            echo "Version has not changed, exiting."
+            echo "::set-output name=version_changed::false"
+          else
+            echo "::set-output name=version_changed::true"
+          fi
 
       - run: npm publish
+        if: steps.check_version.outputs.version_changed == 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
