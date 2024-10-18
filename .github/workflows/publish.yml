@@ -34,6 +34,8 @@ jobs:
           LATEST_VERSION=$(npm view @bendernnm/mufin-iso4217 version --registry=https://npm.pkg.github.com/)
           echo "Latest published version: $LATEST_VERSION"
           echo "::set-output name=latest_version::$LATEST_VERSION"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Check if version has changed
         if: steps.package_version.outputs.version == steps.latest_version.outputs.latest_version
