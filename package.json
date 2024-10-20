@@ -1,6 +1,6 @@
 {
   "name": "@bendernnm/mufin-iso4217",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -15,8 +15,8 @@
     "start": "node index.js",
     "sample": "node _sample.js",
     "script:parse": "cd scripts && node parse.js",
-    "eslint": "eslint .",
-    "eslint-fix": "eslint . --fix",
+    "eslint": "eslint . --ignore-path .eslintignore",
+    "eslint-fix": "eslint . --fix --ignore-path .eslintignore",
     "test": "jest --coverage"
   },
   "private": false,

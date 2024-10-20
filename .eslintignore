@@ -1,0 +1,11 @@
+# Ignore all files in the 'dist' directory
+dist/
+
+# Ignore all test files
+tests/**/*.test.js
+
+# Ignore node_modules (typically already ignored by default)
+node_modules/
+
+# Ignore all TypeScript declaration files
+*.d.ts
