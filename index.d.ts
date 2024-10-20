@@ -14,7 +14,7 @@ declare const moduleExports: {
     getCIBy: {
         code: (code: string) => CurrencyItem;
         name: (name: string) => CurrencyItem;
-        number: (number: string) => CurrencyItem;
+        number: (number: number) => CurrencyItem;
     };
 };
 
